@@ -78,7 +78,7 @@ bool isIdentical(Node* r1, Node* r2){
 
     if(left && right && cond)return true;
     else return false;
-}
+} 
 
 int main(){
     Node* r1= NULL ;
