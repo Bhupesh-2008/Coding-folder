@@ -70,7 +70,7 @@ vector<int> zigZagTraversal(Node* root){
 
     bool leftToRight= true;
     while(!q.empty()){
-        int size= q.size();
+        int size= q.size(); 
         vector<int>ans(size);
         for(int i=0; i<size; i++){
             Node* frontNode= q.front();
